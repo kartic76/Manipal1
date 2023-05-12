@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="manipal testng suite" verbose="1" parallel="classes">
+    <parameter name = "browser" value="edge"/>
+
+    <test name="Functional testing" >
+        <classes>
+
+            <class name="org.example.OrangeLogin" />
+
+        </classes>
+    </test>
+
+</suite>
